@@ -30,3 +30,7 @@ fetch(url).then(response =>
         console.log(id)
         console.log(advice)
     })
+
+    function atualizarPagina() {
+        location.reload();
+      }

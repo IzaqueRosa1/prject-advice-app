@@ -39,3 +39,29 @@ body{
 footer{
     color: aliceblue;
 }
+.advice{
+    text-align: center;
+}
+.botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 100px;
+    height: 5vh;
+    width: 2.5vw;
+}
+.dice img {
+    height: 40%;
+    width: 40%;
+}
+
